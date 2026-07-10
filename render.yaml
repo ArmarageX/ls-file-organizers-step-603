@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ls-file-organizers-step-603
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: public
