@@ -1,0 +1,138 @@
+{
+  "pages": {
+    "index.html": {
+      "status": 200,
+      "words": 1983,
+      "target_links": 2,
+      "prev_links": 1,
+      "schema": true,
+      "images": 2,
+      "footer_trust": true,
+      "brand_home": true
+    },
+    "fit-sizing-clearance.html": {
+      "status": 200,
+      "words": 1923,
+      "target_links": 2,
+      "prev_links": 1,
+      "schema": true,
+      "images": 2,
+      "footer_trust": true,
+      "brand_home": true
+    },
+    "workflow-layout-handoff.html": {
+      "status": 200,
+      "words": 1848,
+      "target_links": 2,
+      "prev_links": 1,
+      "schema": true,
+      "images": 2,
+      "footer_trust": true,
+      "brand_home": true
+    },
+    "specs-compatibility.html": {
+      "status": 200,
+      "words": 1841,
+      "target_links": 2,
+      "prev_links": 1,
+      "schema": true,
+      "images": 2,
+      "footer_trust": true,
+      "brand_home": true
+    },
+    "maintenance-durability-care.html": {
+      "status": 200,
+      "words": 1818,
+      "target_links": 2,
+      "prev_links": 1,
+      "schema": true,
+      "images": 2,
+      "footer_trust": true,
+      "brand_home": true
+    },
+    "checklist-red-flags.html": {
+      "status": 200,
+      "words": 1810,
+      "target_links": 2,
+      "prev_links": 1,
+      "schema": true,
+      "images": 2,
+      "footer_trust": true,
+      "brand_home": true
+    },
+    "scenario-small-office.html": {
+      "status": 404,
+      "words": 2,
+      "target_links": 0,
+      "prev_links": 0,
+      "schema": false,
+      "images": 0,
+      "footer_trust": false,
+      "brand_home": false
+    },
+    "about.html": {
+      "status": 200,
+      "words": 512,
+      "target_links": 0,
+      "prev_links": 0,
+      "schema": true,
+      "images": 1,
+      "footer_trust": true,
+      "brand_home": true
+    },
+    "contact.html": {
+      "status": 200,
+      "words": 468,
+      "target_links": 0,
+      "prev_links": 0,
+      "schema": true,
+      "images": 1,
+      "footer_trust": true,
+      "brand_home": true
+    },
+    "privacy.html": {
+      "status": 200,
+      "words": 476,
+      "target_links": 0,
+      "prev_links": 0,
+      "schema": true,
+      "images": 1,
+      "footer_trust": true,
+      "brand_home": true
+    }
+  },
+  "support_similarity": {
+    "fit-sizing-clearance.html|workflow-layout-handoff.html": 0.243,
+    "fit-sizing-clearance.html|specs-compatibility.html": 0.245,
+    "fit-sizing-clearance.html|maintenance-durability-care.html": 0.25,
+    "fit-sizing-clearance.html|checklist-red-flags.html": 0.263,
+    "fit-sizing-clearance.html|scenario-small-office.html": 0.0,
+    "workflow-layout-handoff.html|specs-compatibility.html": 0.241,
+    "workflow-layout-handoff.html|maintenance-durability-care.html": 0.25,
+    "workflow-layout-handoff.html|checklist-red-flags.html": 0.254,
+    "workflow-layout-handoff.html|scenario-small-office.html": 0.0,
+    "specs-compatibility.html|maintenance-durability-care.html": 0.249,
+    "specs-compatibility.html|checklist-red-flags.html": 0.261,
+    "specs-compatibility.html|scenario-small-office.html": 0.0,
+    "maintenance-durability-care.html|checklist-red-flags.html": 0.255,
+    "maintenance-durability-care.html|scenario-small-office.html": 0.0,
+    "checklist-red-flags.html|scenario-small-office.html": 0.0
+  },
+  "trust_similarity": {
+    "about.html|contact.html": 0.017,
+    "about.html|privacy.html": 0.008,
+    "contact.html|privacy.html": 0.009
+  },
+  "assets": {
+    "https://ls-file-organizers-step-603.onrender.com/assets/desktop-file-organizer-workflow.webp": {
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 10652
+    },
+    "https://ls-file-organizers-step-603.onrender.com/assets/stepped-paper-sorting-desk.webp": {
+      "status": 200,
+      "content_type": "image/webp",
+      "bytes": 10642
+    }
+  }
+}
