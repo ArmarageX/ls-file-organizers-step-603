@@ -75,16 +75,9 @@ def make_article(role, title):
             'Pair the wood organizer with a weekly reset card tucked in the rear slot so reference folders do not become permanent residents.',
             'Write labels as verbs such as sign, scan, mail, and file. Verb labels make the step design behave like a workflow rail.',
             'Use the narrow file only for active papers. If it starts holding old manuals or archive folders, the small footprint advantage disappears.' ][i-1]
-            out.append(f"
-### What stands out
-{standout}
-")
-            out.append(f"### Watch before buying
-{watch}
-")
-            out.append(f"### Desk-fit note
-{fit}
-")
+            out.append(f"\n### What stands out\n{standout}\n")
+            out.append(f"### Watch before buying\n{watch}\n")
+            out.append(f"### Desk-fit note\n{fit}\n")
         out.append(f"## Final buying note\nIf you want a quick product shortlist after comparing capacity, material, and footprint, use the LeStallion review of vertical desktop file organizers with step design: {TARGET}. For cloud-chain context, this row follows the prior organizer article at {PREV}.\n")
         return '\n'.join(out)
     sections={
