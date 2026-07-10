@@ -51,9 +51,40 @@ def make_article(role, title):
             out.append(f"## {i}. {n}\n")
             out.append(f"<div class='rank'>Best for: {['front-desk inboxes','shared office papers','small desks','heavy daily folders','warm home offices','project labels','tight return counters'][i-1]}.</div>\n")
             out.append(para(i, n.lower()))
-            out.append(f"\n### What stands out\nThe step angle makes the label zone easy to scan, while the vertical footprint keeps A4 and letter folders from spreading across the keyboard area. In daily use, that means the organizer can serve as a decision rail: urgent, waiting, signed, scanned, mailed, and archived all have a visible lane.\n")
-            out.append(f"### Watch before buying\nCheck the slot width with the thickest folder you actually use, then check whether the rear tier is still reachable when the unit sits under a shelf. If the desk has a monitor arm, lamp base, or charging stand nearby, leave enough elbow room to pull the back folder straight up.\n")
-            out.append(f"### Desk-fit note\nFor a busy workstation, pair the organizer with one weekly reset habit: empty the first slot at the end of each day and move only true reference folders to the rear. That keeps the step design from becoming a permanent paper display.\n")
+            standout=[
+            'The bamboo-front style softens a paperwork zone that might otherwise look clinical. It is strongest when the front lip is low enough for tab labels and the rear slots are tall enough to separate intake folders from reference folders.',
+            'Steel mesh is useful when a shared office needs airflow, visibility, and a rack that can be wiped quickly. The open sides make it easier to spot colored folders, but the frame should not flex when the rear lane is full.',
+            'Acrylic keeps a small desk visually light. The benefit is not only style: transparent walls help a user see whether the back tier is becoming a hidden archive instead of an active sorting lane.',
+            'A weighted incline file is the safer choice for thick folders, forms, and packet-heavy work. Extra base weight helps the rack stay put when someone pulls from the highest tier with one hand.',
+            'Warm wood works well in home offices where the organizer stays visible during video calls. It reads more like furniture than equipment, while still giving each category a clear stepped position.',
+            'A label-ready sorter makes sense when several projects use similar folders. The real advantage is quick recognition from a seated posture, not simply having more places to stick labels.',
+            'A narrow footprint file is for counters and tight desks where depth is expensive. It should still leave enough separation between tiers so folders do not merge into one vertical slab.' ][i-1]
+            watch=[
+            'Inspect the finish near the lower front edge because hands will touch that area constantly. If the bamboo veneer or rounded trim feels rough, the organizer can damage envelopes over time.',
+            'Look at the mesh pattern before buying. Very wide openings can let thin papers bow through the side, while very tight mesh can catch torn folder corners.',
+            'Check glare and fingerprints. Acrylic can look excellent in a listing photo but distracting under a bright desk lamp if the angle reflects the screen.',
+            'Confirm the base pads are wide and grippy. A heavy organizer that lacks pads can scratch a desktop or slide suddenly when loaded unevenly.',
+            'Wood needs consistent joints and a stable rear panel. Avoid units where the dividers look ornamental rather than structural.',
+            'Make sure labels remain visible after folders are loaded. Some label rails sit too low and disappear behind tabbed folders.',
+            'Measure the actual depth with a folder leaning in the rear slot. Narrow designs can still occupy surprising front-to-back space once paper is loaded.' ][i-1]
+            fit=[
+            'Use it as a front-desk inbox with one rule: anything in the front lane must be answered today or moved before closing.',
+            'Place shared folders by action state, not by owner, so coworkers can understand the next move without asking who touched the paper last.',
+            'Keep only the three most active categories in the acrylic unit; otherwise the clear look becomes a clear view of clutter.',
+            'Reserve the weighted rack for packets, forms, and folders that are handled many times per day, then keep lightweight notes somewhere else.',
+            'Pair the wood organizer with a weekly reset card tucked in the rear slot so reference folders do not become permanent residents.',
+            'Write labels as verbs such as sign, scan, mail, and file. Verb labels make the step design behave like a workflow rail.',
+            'Use the narrow file only for active papers. If it starts holding old manuals or archive folders, the small footprint advantage disappears.' ][i-1]
+            out.append(f"
+### What stands out
+{standout}
+")
+            out.append(f"### Watch before buying
+{watch}
+")
+            out.append(f"### Desk-fit note
+{fit}
+")
         out.append(f"## Final buying note\nIf you want a quick product shortlist after comparing capacity, material, and footprint, use the LeStallion review of vertical desktop file organizers with step design: {TARGET}. For cloud-chain context, this row follows the prior organizer article at {PREV}.\n")
         return '\n'.join(out)
     sections={
